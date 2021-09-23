@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 if (Fauth.getCurrentUser() != null) {
                     if (Fauth.getCurrentUser().isEmailVerified()) {
                         Fauth = FirebaseAuth.getInstance();
+                        Intent i = new Intent(MainActivity.this,Allinone.class);
 
                         databaseReference = FirebaseDatabase.getInstance().getReference("User").child(FirebaseAuth.getInstance().getUid() + "/Role");
                         databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
@@ -61,12 +62,14 @@ public class MainActivity extends AppCompatActivity {
                             public void onDataChange(@NonNull DataSnapshot snapshot) {
                                 String role = snapshot.getValue(String.class);
                                 if (role.equals("Pharmacist")) {
-                                    startActivity(new Intent(MainActivity.this, PharmacistPanel_BottomNavigation.class));
-                                    finish();
+                                    i.putExtra("val1","Pharmacist");
+
+                                    startActivity(i);
 
                                 }
                                 if(role.equals("Customer")){
-                                    startActivity(new Intent(MainActivity.this,CustomerPanel_BottomNavigation.class));
+                                    i.putExtra("val1","Customer");
+                                    startActivity(i);
                                     finish();
 
                                 }
@@ -75,7 +78,8 @@ public class MainActivity extends AppCompatActivity {
 
 
                                 if(role.equals("DeliveryPerson")) {
-                                    startActivity(new Intent(MainActivity.this, DeliveryPanel_BottomNavigation.class));
+                                    i.putExtra("val1","DeliveryPerson");
+                                    startActivity(i);
                                     finish();
                                 }
                             }

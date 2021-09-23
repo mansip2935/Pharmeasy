@@ -9,6 +9,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -46,20 +47,20 @@ public class Registration extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
-        Fname = (TextInputLayout)findViewById(R.id.Firstname);
-        Lname = (TextInputLayout)findViewById(R.id.Lastname);
+        Fname = (TextInputLayout)findViewById(R.id.Fname);
+        Lname = (TextInputLayout)findViewById(R.id.Lname);
         Email = (TextInputLayout)findViewById(R.id.Emailid);
-        Pass = (TextInputLayout)findViewById(R.id.Pwd);
-        cpass = (TextInputLayout)findViewById(R.id.Cpass);
+        Pass = (TextInputLayout)findViewById(R.id.Password);
+        cpass = (TextInputLayout)findViewById(R.id.confirmpass);
         mobileno = (TextInputLayout)findViewById(R.id.Mobilenumber);
         localaddress = (TextInputLayout)findViewById(R.id.Localaddress);
-        pincode = (TextInputLayout)findViewById(R.id.Pincodee);
+        pincode = (TextInputLayout)findViewById(R.id.Pincode_custom);
         Statespin = (Spinner) findViewById(R.id.Statee);
         Cityspin = (Spinner) findViewById(R.id.Citys);
         area = (TextInputLayout)findViewById(R.id.Area);
 
         signup = (Button)findViewById(R.id.button);
-        Emaill = (Button)findViewById(R.id.emaillid);
+        Emaill = (Button)findViewById(R.id.email);
         Phone = (Button)findViewById(R.id.phone);
 
         Cpp = (CountryCodePicker)findViewById(R.id.CountryCode);
