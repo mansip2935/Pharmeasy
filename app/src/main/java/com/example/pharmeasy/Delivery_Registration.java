@@ -188,7 +188,7 @@ public class Delivery_Registration extends AppCompatActivity {
 
                                                                     String phonenumber = Cpp.getSelectedCountryCodeWithPlus() + mobile;
                                                                     Intent b = new Intent(Delivery_Registration.this,Delivery_VerifyPhone.class);
-                                                                    b.putExtra("phonenumber",phonenumber);
+                                                                    b.putExtra("phonenumber_del",phonenumber);
                                                                     startActivity(b);
 
                                                                 }

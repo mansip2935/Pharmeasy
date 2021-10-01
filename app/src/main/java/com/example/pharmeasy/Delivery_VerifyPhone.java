@@ -35,7 +35,7 @@ public class Delivery_VerifyPhone extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_delivery__verify_phone);
 
-        phoneno = getIntent().getStringExtra("phonenumber").trim();
+        phoneno = getIntent().getStringExtra("phonenumber_del").trim();
 
         entercode = (EditText) findViewById(R.id.Dcode);
         txt = (TextView) findViewById(R.id.textt);

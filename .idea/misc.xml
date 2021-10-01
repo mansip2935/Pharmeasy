@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Aap/Pharmeasy/app/src/main/res/drawable/add.xml" value="0.10833333333333334" />
+        <entry key="..\:/Aap/Pharmeasy/app/src/main/res/drawable/add2.xml" value="0.10833333333333334" />
+        <entry key="..\:/Aap/Pharmeasy/app/src/main/res/drawable/ic_baseline_account_box_24.xml" value="0.2203125" />
+        <entry key="..\:/Aap/Pharmeasy/app/src/main/res/drawable/ic_baseline_add_shopping_cart_24.xml" value="0.2203125" />
+        <entry key="..\:/Aap/Pharmeasy/app/src/main/res/drawable/ic_baseline_add_shopping_cart_24_red.xml" value="0.2203125" />
+        <entry key="..\:/Aap/Pharmeasy/app/src/main/res/drawable/ic_baseline_login_24.xml" value="0.2203125" />
+        <entry key="..\:/Aap/Pharmeasy/app/src/main/res/drawable/wadd.xml" value="0.2203125" />
+        <entry key="..\:/Aap/Pharmeasy/app/src/main/res/layout/activity_allinone.xml" value="0.12681159420289856" />
+        <entry key="..\:/Aap/Pharmeasy/app/src/main/res/layout/activity_cart_page.xml" value="0.12590579710144928" />
+        <entry key="..\:/Aap/Pharmeasy/app/src/main/res/layout/activity_confirm_order.xml" value="0.12590579710144928" />
+        <entry key="..\:/Aap/Pharmeasy/app/src/main/res/layout/activity_customer_panel__bottom_navigation.xml" value="0.12590579710144928" />
+        <entry key="..\:/Aap/Pharmeasy/app/src/main/res/layout/activity_pharmacist_registration.xml" value="0.12590579710144928" />
+        <entry key="..\:/Aap/Pharmeasy/app/src/main/res/layout/activity_product__registration_form.xml" value="0.12590579710144928" />
+        <entry key="..\:/Aap/Pharmeasy/app/src/main/res/layout/fragment_customer_.xml" value="0.1" />
+        <entry key="..\:/Aap/Pharmeasy/app/src/main/res/layout/fragment_delivery_person_.xml" value="0.1431159420289855" />
+        <entry key="..\:/Aap/Pharmeasy/app/src/main/res/layout/fragment_pharmacist_.xml" value="0.33" />
+        <entry key="..\:/Aap/Pharmeasy/app/src/main/res/layout/order_to_delivery.xml" value="0.1721014492753623" />
+        <entry key="..\:/Aap/Pharmeasy/app/src/main/res/layout/recycler_card.xml" value="0.12590579710144928" />
+        <entry key="..\:/Aap/Pharmeasy/app/src/main/res/menu/main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Aap/Pharmeasy/app/src/main/res/menu/nav_menu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
