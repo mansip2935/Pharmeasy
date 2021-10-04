@@ -23,10 +23,9 @@ public class Customer_Fragment extends Fragment {
     private static Recycler_adapter CovidEssentialsadapter,Homecareadapter,Babycareadapter,Devicesadapter,WomenCareadapter,NutritionandHealthcareSupplimentsadapter;
 
 
-    private static ArrayList<DataModel> data;
 
     LinearLayoutManager HorizontalLayout, HorizontalLayout2,HorizontalLayout3,HorizontalLayout4,HorizontalLayout5,HorizontalLayout6;
-    ;
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
