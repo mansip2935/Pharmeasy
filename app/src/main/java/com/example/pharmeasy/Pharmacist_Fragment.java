@@ -20,7 +20,7 @@ import com.google.firebase.database.FirebaseDatabase;
 public class Pharmacist_Fragment extends Fragment {
     FloatingActionButton f;
     RecyclerView CovidEssentials_re,Homecare_re,Babycare_re,Devices_re,WomenCare_re,NutritionandHealthcareSuppliments_re;
-    private static Recycler_adapter CovidEssentialsadapter,Homecareadapter,Babycareadapter,Devicesadapter,WomenCareadapter,NutritionandHealthcareSupplimentsadapter;
+    private static Recycler_adapter2 CovidEssentialsadapter,Homecareadapter,Babycareadapter,Devicesadapter,WomenCareadapter,NutritionandHealthcareSupplimentsadapter;
     LinearLayoutManager HorizontalLayout, HorizontalLayout2,HorizontalLayout3,HorizontalLayout4,HorizontalLayout5,HorizontalLayout6;
     String uid;
 
@@ -59,39 +59,39 @@ public class Pharmacist_Fragment extends Fragment {
                 new FirebaseRecyclerOptions.Builder<Model>()
                         .setQuery(FirebaseDatabase.getInstance().getReference().child("product").child("Covid Essentials").orderByChild("sid").startAt(uid).endAt("\ufaff"), Model.class)
                         .build();
-        CovidEssentialsadapter=new Recycler_adapter(optionsCovidEssentials);
+        CovidEssentialsadapter=new Recycler_adapter2(optionsCovidEssentials);
         CovidEssentials_re.setAdapter(CovidEssentialsadapter);
 
         FirebaseRecyclerOptions<Model> optionsBabycare =
                 new FirebaseRecyclerOptions.Builder<Model>()
                         .setQuery(FirebaseDatabase.getInstance().getReference().child("product").child("Baby care").orderByChild("sid").startAt(uid).endAt("\ufaff"), Model.class)
                         .build();
-        Babycareadapter=new Recycler_adapter(optionsBabycare);
+        Babycareadapter=new Recycler_adapter2(optionsBabycare);
         Babycare_re.setAdapter(Babycareadapter);
         FirebaseRecyclerOptions<Model> optionsHomecare =
                 new FirebaseRecyclerOptions.Builder<Model>()
                         .setQuery(FirebaseDatabase.getInstance().getReference().child("product").child("Home care").orderByChild("sid").startAt(uid).endAt("\ufaff"), Model.class)
                         .build();
-        Homecareadapter=new Recycler_adapter(optionsHomecare);
+        Homecareadapter=new Recycler_adapter2(optionsHomecare);
         Homecare_re.setAdapter(Homecareadapter);
 
         FirebaseRecyclerOptions<Model> optionsDevices =
                 new FirebaseRecyclerOptions.Builder<Model>()
                         .setQuery(FirebaseDatabase.getInstance().getReference().child("product").child("Devices").orderByChild("sid").startAt(uid).endAt("\ufaff"), Model.class)
                         .build();
-        Devicesadapter=new Recycler_adapter(optionsDevices);
+        Devicesadapter=new Recycler_adapter2(optionsDevices);
         Devices_re.setAdapter(Devicesadapter);
         FirebaseRecyclerOptions<Model> optionsWomenCare =
                 new FirebaseRecyclerOptions.Builder<Model>()
                         .setQuery(FirebaseDatabase.getInstance().getReference().child("product").child("Women Care").orderByChild("sid").startAt(uid).endAt("\ufaff"), Model.class)
                         .build();
-        WomenCareadapter=new Recycler_adapter(optionsWomenCare);
+        WomenCareadapter=new Recycler_adapter2(optionsWomenCare);
         WomenCare_re.setAdapter(WomenCareadapter);
         FirebaseRecyclerOptions<Model> optionsNutritionandHealthcareSuppliments =
                 new FirebaseRecyclerOptions.Builder<Model>()
                         .setQuery(FirebaseDatabase.getInstance().getReference().child("product").child("Nutrition and Healthcare Suppliments").orderByChild("sid").startAt(uid).endAt("\ufaff"), Model.class)
                         .build();
-        NutritionandHealthcareSupplimentsadapter=new Recycler_adapter(optionsNutritionandHealthcareSuppliments);
+        NutritionandHealthcareSupplimentsadapter=new Recycler_adapter2(optionsNutritionandHealthcareSuppliments);
         NutritionandHealthcareSuppliments_re.setAdapter(NutritionandHealthcareSupplimentsadapter);
         f.setOnClickListener(new View.OnClickListener() {
             @Override

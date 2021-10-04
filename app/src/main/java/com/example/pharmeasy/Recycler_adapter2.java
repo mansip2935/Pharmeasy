@@ -37,7 +37,7 @@ public class Recycler_adapter2 extends FirebaseRecyclerAdapter<Model, Recycler_a
             @Override
             public void onClick(View view) {
                 AppCompatActivity activity=(AppCompatActivity)view.getContext();
-                Intent inti=new Intent(activity,Confirm_order.class);
+                Intent inti=new Intent(activity,See_product.class);
                 inti.putExtra("name",model.getName());
                 inti.putExtra("manufacture",model.getAbout_manufacture());
                 inti.putExtra("expiry_date",model.getExpiry_date());
