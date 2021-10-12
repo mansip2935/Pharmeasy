@@ -172,8 +172,9 @@ public class sendotp extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
 
                         if(task.isSuccessful()){
-                            startActivity(new Intent(sendotp.this,CustomerPanel_BottomNavigation.class));
-                            finish();
+                            Intent Z = new Intent(sendotp.this,Allinone.class);
+                            Z.putExtra("val1","Customer");
+                            startActivity(Z);  finish();
 
                         }else{
                             ReusableCodeForAll.ShowAlert(sendotp.this,"Error",task.getException().getMessage());

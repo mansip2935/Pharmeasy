@@ -65,7 +65,8 @@ public class Pharmacistlogin extends AppCompatActivity {
                                     if(Fauth.getCurrentUser().isEmailVerified()){
                                         mDialog.dismiss();
                                         Toast.makeText(Pharmacistlogin.this, "Congratulation! You Have Successfully Login", Toast.LENGTH_SHORT).show();
-                                        Intent Z = new Intent(Pharmacistlogin.this,PharmacistPanel_BottomNavigation.class);
+                                        Intent Z = new Intent(Pharmacistlogin.this,Allinone.class);
+                                        Z.putExtra("val1","Pharmacist");
                                         startActivity(Z);
                                         finish();
 

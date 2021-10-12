@@ -11,10 +11,11 @@
         <entry key="..\:/Aap/Pharmeasy/app/src/main/res/drawable/ic_baseline_login_24.xml" value="0.2203125" />
         <entry key="..\:/Aap/Pharmeasy/app/src/main/res/drawable/wadd.xml" value="0.2203125" />
         <entry key="..\:/Aap/Pharmeasy/app/src/main/res/layout/activity_allinone.xml" value="0.12681159420289856" />
-        <entry key="..\:/Aap/Pharmeasy/app/src/main/res/layout/activity_cart_page.xml" value="0.12590579710144928" />
+        <entry key="..\:/Aap/Pharmeasy/app/src/main/res/layout/activity_cart_page.xml" value="0.4537037037037037" />
         <entry key="..\:/Aap/Pharmeasy/app/src/main/res/layout/activity_confirm_order.xml" value="0.12590579710144928" />
         <entry key="..\:/Aap/Pharmeasy/app/src/main/res/layout/activity_customer_panel__bottom_navigation.xml" value="0.12590579710144928" />
         <entry key="..\:/Aap/Pharmeasy/app/src/main/res/layout/activity_pharmacist_registration.xml" value="0.12590579710144928" />
+        <entry key="..\:/Aap/Pharmeasy/app/src/main/res/layout/activity_pharmacistlogin.xml" value="0.22" />
         <entry key="..\:/Aap/Pharmeasy/app/src/main/res/layout/activity_product__registration_form.xml" value="0.12590579710144928" />
         <entry key="..\:/Aap/Pharmeasy/app/src/main/res/layout/activity_see_product.xml" value="0.22" />
         <entry key="..\:/Aap/Pharmeasy/app/src/main/res/layout/fragment_customer_.xml" value="0.1" />

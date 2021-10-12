@@ -64,7 +64,8 @@ public class Login extends AppCompatActivity {
                                     if(Fauth.getCurrentUser().isEmailVerified()){
                                         mDialog.dismiss();
                                         Toast.makeText(Login.this, "Congratulation! You Have Successfully Login", Toast.LENGTH_SHORT).show();
-                                        Intent Z = new Intent(Login.this,CustomerPanel_BottomNavigation.class);
+                                        Intent Z = new Intent(Login.this,Allinone.class);
+                                        Z.putExtra("val1","Customer");
                                         startActivity(Z);
                                         finish();
 

@@ -177,8 +177,9 @@ public class Pharmacistsendotp extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
 
                         if(task.isSuccessful()){
-                            startActivity(new Intent(Pharmacistsendotp.this,PharmacistPanel_BottomNavigation.class));
-                            finish();
+                            Intent Z = new Intent(Pharmacistsendotp.this,Allinone.class);
+                            Z.putExtra("val1","Pharmacist");
+                            startActivity(Z);   finish();
 
                         }else{
                             ReusableCodeForAll.ShowAlert(Pharmacistsendotp.this,"Error",task.getException().getMessage());

@@ -24,16 +24,13 @@
         <activity android:name=".Product_RegistrationForm" />
         <activity android:name=".Allinone" />
         <activity android:name=".Delivery_sendotp" />
-        <activity android:name=".DeliveryPanel_BottomNavigation" />
         <activity android:name=".DeliveryForgotPassword" />
         <activity android:name=".Delivery_VerifyPhone" />
-        <activity android:name=".CustomerPanel_BottomNavigation" />
         <activity android:name=".sendotp" />
         <activity android:name=".ForgotPassword" />
         <activity android:name=".VerifyPhone" />
         <activity android:name=".Pharmacistsendotp" />
         <activity android:name=".PharmacistForgotPassword" />
-        <activity android:name=".PharmacistPanel_BottomNavigation" />
         <activity android:name=".PharmacistVerifyPhone" />
         <activity android:name=".Delivery_Registration" />
         <activity android:name=".Delivery_Loginphone" />

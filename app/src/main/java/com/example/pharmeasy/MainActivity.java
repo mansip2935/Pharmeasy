@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     TextView textview;
 
     FirebaseAuth Fauth;
-    FirebaseDatabase firebaseDatabase;
+
     DatabaseReference databaseReference;
 
     @Override

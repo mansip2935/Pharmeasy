@@ -7,19 +7,17 @@
     tools:context=".Cart_page">
     <TextView
         android:id="@+id/mycart"
-        android:layout_width="426dp"
+        android:layout_width="match_parent"
         android:layout_height="59dp"
         android:background="#FA0C0C"
-
+        android:textAlignment="center"
         android:text="My Cart"
         android:textSize="20sp"
+        android:textColor="@color/white"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/cart_recyclerView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="MissingConstraints" />
+
+
+        />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/cart_recyclerView"
@@ -35,12 +33,13 @@
         android:id="@+id/Cart_Total"
         android:text="Total"
         android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="parent"
+       android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
         android:gravity="right"
         android:textStyle="bold"
-        android:layout_marginRight="25dp"
-        android:layout_marginBottom="25dp"
-        app:layout_constraintBottom_toTopOf="@id/buybutton_cart"/>
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="60dp"
+        />
     <Button
         android:id="@+id/buybutton_cart"
         android:layout_width="match_parent"

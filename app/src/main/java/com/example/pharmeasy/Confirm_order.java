@@ -95,7 +95,7 @@ public class Confirm_order extends AppCompatActivity {
                 cust_area=snapshot.child(uid).child("area").getValue(String.class);
                 cust_city=snapshot.child(uid).child("City").getValue(String.class);
                 cust_state=snapshot.child(uid).child("State").getValue(String.class);
-                cust_pincode=snapshot.child(uid).child("Password").getValue(String.class);
+                cust_pincode=snapshot.child(uid).child("Pincode").getValue(String.class);
 
             }
 
@@ -113,7 +113,7 @@ public class Confirm_order extends AppCompatActivity {
                 phar_area=snapshot.child(sid).child("Area").getValue(String.class);
                 phar_city=snapshot.child(sid).child("City").getValue(String.class);
                 phar_state=snapshot.child(sid).child("State").getValue(String.class);
-                phar_pincode=snapshot.child(sid).child("Password").getValue(String.class);
+                phar_pincode=snapshot.child(sid).child("Pincode").getValue(String.class);
 
 
                 dm.setPhar_name(phar_name+phar_last);

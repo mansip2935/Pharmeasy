@@ -33,7 +33,7 @@
                 android:id="@+id/pro_name"
                 android:text="Paneer Butter Masala"
                 android:textSize="15sp"
-
+android:maxWidth="200dp"
                 android:textColor="@color/Black"
                 android:layout_margin="10dp"/>
 
